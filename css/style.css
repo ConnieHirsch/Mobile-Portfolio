@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
+@import url(https://fonts.googleapis.com/css?family=Tangerine);
+
 html {
   font-size: 100%;
   overflow-y: scroll;
@@ -5,6 +8,15 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: none;
 }
+/*@font-face {
+  font-family: 'Open Sans';
+  src: url('https://fonts.googleapis.com/css?family=Open+Sans:400');
+}
+@font-face {
+  font-family: 'Tangerine';
+  src: url('https://fonts.googleapis.com/css?family=Tangerine');
+}
+*/
 body { margin: 0; font-size: 14px; line-height: 1.61; font-weight: 400; }
 body, button, input, select, textarea { font-family: 'Open Sans', sans-serif; color: #333; }
 
@@ -21,7 +33,7 @@ img { border: 0; max-width: 100%; }
 body { background: #fff; }
 header, footer, .container { max-width: 45em; margin: 0 auto; }
 
-header { padding: 0 0.5em; color: #C90B0B;  font-family: 'Tangerine', serif;}
+header { padding: 0 0.5em; color: #C90B0B;  font-family: 'Tangerine', cursive;}
 header img { border-radius: 40px; float: left; }
 header p { font-size:2.7em; font-weight: bold; padding-left: 4em;}
 header p span { font-size: 0.7em; font-weight: normal;}
